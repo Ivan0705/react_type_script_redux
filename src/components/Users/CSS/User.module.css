@@ -1,0 +1,38 @@
+.list {
+    margin-top: 12px;
+    width: 50%;
+    margin-left: 25%;
+    font-family: "Times New Roman", serif;
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+
+.list_head {
+    background-color: #BAB297;
+    font-size: 2em;
+    color: #E6DCDB;
+    height: 55px;
+    text-decoration-line: underline;
+}
+
+.list_font {
+    color: #3E3D40;
+}
+
+.list_honest {
+    background-color: #E6DCDB;
+}
+
+.list_odd {
+    background-color: #A7BAD0;
+}
+
+.error {
+    color: red;
+    text-decoration-color: red;
+    text-decoration: underline;
+}
+
+.isLoading {
+    color: rgba(69, 69, 69, 0.6);
+}

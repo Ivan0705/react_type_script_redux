@@ -1,5 +1,7 @@
 import {applyMiddleware, legacy_createStore as createStore} from "redux";
+import {rootReducers} from "./reducers";
 import thunk from "redux-thunk";
-import {rootReducer} from "./reducers";
 
-export const store = createStore(rootReducer, applyMiddleware(thunk));
+export const store = createStore(rootReducers, applyMiddleware(thunk));
+
+export type RootState = ReturnType<typeof rootReducers>;
